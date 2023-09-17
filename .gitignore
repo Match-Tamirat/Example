@@ -1,0 +1,31 @@
+# => comment
+# * =>  all (0 or mare) character e t c . . .
+# ? =>  one(1) Charater or single character c
+# [ abc] => a or b or character
+# [a-z] => a to z characters
+# [A-Z] => A to Z  characters
+# [a-zA-Z]  => all chareters a to z and A to z
+# ![abc] => it is not required without it or outside it 
+
+# /  => separeter file or dirctory separeter for 
+
+# bit/** => all file  in "bin"  dirctory
+
+# a/**/  => a/b  a/bin b a/java/reasourse/image/b 
+
+#  /# comment
+#  /* / Escapte character
+
+
+
+# 9.txt
+# 10.txt
+# 1.txt/
+# *.txt
+# LICENSE
+# src/
+# src/test
+# src/main/java
+# src/main/resources
+
+?a.txt
