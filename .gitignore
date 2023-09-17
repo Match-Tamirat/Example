@@ -1,6 +1,6 @@
-# => comment
+# # => comment
 # * =>  all (0 or mare) character e t c . . .
-# ? =>  one(1) Charater or single character c
+# ? =>  one(1) Charater or single character 
 # [ abc] => a or b or character
 # [a-z] => a to z characters
 # [A-Z] => A to Z  characters
@@ -18,6 +18,10 @@
 
 
 
+.vscode
+
+
+
 # 9.txt
 # 10.txt
 # 1.txt/
@@ -28,4 +32,4 @@
 # src/main/java
 # src/main/resources
 
-?a.txt
+# ?a.txt
