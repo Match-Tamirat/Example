@@ -4,5 +4,5 @@
 # *.txt
 # LICENSE
 # src/
-src/test/main
-src/main/java
+src/test
+# src/main/java
