@@ -1,35 +1,120 @@
-# # => comment
-# * =>  all (0 or mare) character e t c . . .
-# ? =>  one(1) Charater or single character 
-# [ abc] => a or b or character
-# [a-z] => a to z characters
-# [A-Z] => A to Z  characters
-# [a-zA-Z]  => all chareters a to z and A to z
-# ![abc] => it is not required without it or outside it 
+# Prerequisites
+*.d
 
-# /  => separeter file or dirctory separeter for 
+# Compiled Object files
+*.slo
+*.lo
+*.oz
+*.obj
 
-# bit/** => all file  in "bin"  dirctory
+# Precompiled Headers
+*.gch
+*.pch
 
-# a/**/  => a/b  a/bin b a/java/reasourse/image/b 
+# Compiled Dynamic libraries
+*.so
+*.dylib
+*.dll
 
-#  /# comment
-#  /* / Escapte character
+# Fortran module files
+*.mod
+*.smod
+
+# Compiled Static libraries
+*.lai
+*.la
+*.a
+*.lib
+
+# Executables
+*.exe
+*.out
+*.app
 
 
+# .v4p backup files
+*~.xml
 
-.vscode
+# Dynamic plugins .dll
+bin/
+# Windows specific
+Thumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+ehthumbs.db
 
+# Java specific
+*.class
+*.jar
+/target/
+*.war
+*.ear
+*.iml
+.idea/
+.idea_workspace/
+.vscode/
+.gradle/
+build/
+out/
 
+# C++ specific
+*.o
+*.obj
+*.exe
+*.dll
+*.so
+*.dylib
+Debug/
+Release/
+CMakeFiles/
+CMakeScripts/
+CMakeCache.txt
+cmake_install.cmake
+compile_commands.json
 
-# 9.txt
-# 10.txt
-# 1.txt/
-# *.txt
-# LICENSE
-# src/
-# src/test
-# src/main/java
-# src/main/resources
+# General
+.DS_Store
+.idea/
+.vscode/
+node_modules/
 
-# ?a.txt
+# Windows specific
+Thumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+ehthumbs.db
+
+# Java specific
+*.class
+*.jar
+/target/
+*.war
+*.ear
+*.iml
+.idea/
+.idea_workspace/
+.vscode/
+.gradle/
+build/
+out/
+
+# C++ specific
+*.o
+*.obj
+*.exe
+*.dll
+*.so
+*.dylib
+Debug/
+Release/
+CMakeFiles/
+CMakeScripts/
+CMakeCache.txt
+cmake_install.cmake
+compile_commands.json
+
+# General
+.DS_Store
+.idea/
+.vscode/
+node_modules/
